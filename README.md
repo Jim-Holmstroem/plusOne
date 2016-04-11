@@ -9,7 +9,7 @@
 
 ## example
 ```bash
-printf "34\n" | nc -n -i 1 127.0.0.1 5000
+printf "34\n234\n" | docker run -i plusone:nodejs
 ```
 
 # running example
